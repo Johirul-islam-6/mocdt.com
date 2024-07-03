@@ -1,0 +1,213 @@
+.section-title {
+  color: #52465b;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+}
+
+.section_paragraph {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+
+  background: linear-gradient(
+    91deg,
+    #ffd770 3.7%,
+    #ff70ac 28.74%,
+    #eb70ff 53.77%,
+    #9e70ff 78.8%,
+    #70b8ff 103.82%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ------------ image border gradient ---------- */
+.image-container {
+  border-radius: 30px;
+  background: linear-gradient(
+    181deg,
+    rgba(255, 215, 112, 0.05) 3.67%,
+    rgba(255, 112, 172, 0.05) 27.65%,
+    rgba(235, 112, 255, 0.03) 51.62%,
+    rgba(158, 112, 255, 0.02) 75.59%,
+    rgba(112, 184, 255, 0) 99.55%
+  );
+}
+
+.image-border-gradient {
+  background: linear-gradient(
+    180deg,
+    #ffd770 -7.34%,
+    #ff70ac 29.48%,
+    #9e70ff 40.49%,
+    #0d0d0d 103.64%
+  );
+}
+
+.banner-title-gradient {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  background: linear-gradient(
+    81deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*short bio */
+
+.short-bio {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+/*----bg-icon---input*/
+
+/* ----------all banner image container button----- */
+
+.banner-active_button {
+  width: 135px;
+  background: rgba(240, 240, 240, 0.1);
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.7px;
+  z-index: 10;
+
+  background-blend-mode: overlay, normal;
+  box-shadow: 2px 2px 1px 0px rgba(32, 34, 39, 0.3);
+  backdrop-filter: blur(0px);
+}
+
+.banner-active_button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+/* ----------all feature button----- */
+.banner_feature_button {
+  border-radius: 5px;
+  width: 135px;
+
+  background: rgba(32, 34, 39, 0.3);
+  border: 1px solid #a8a8a8;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.7px;
+  z-index: 10;
+  background-blend-mode: overlay, normal;
+  box-shadow: 2px 2px 1px 0px rgba(32, 34, 39, 0.3);
+  backdrop-filter: blur(0px);
+}
+
+.banner_feature_button:hover {
+  border: none;
+  background: rgba(65, 69, 72, 0.1);
+}
+
+.banner_feature_button:hover::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+@media (min-width: 1024px) and (max-width: 1210px) {
+  .banner_feature_button,
+  .banner-active_button {
+    width: 100px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .banner_feature_button,
+  .banner-active_button {
+    width: 120px;
+    height: 37px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 370px) and (max-width: 539px) {
+  .banner_feature_button,
+  .banner-active_button {
+    width: 100px;
+    height: 31px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 369px) {
+  .banner_feature_button,
+  .banner-active_button {
+    width: 90px;
+    height: 28px;
+    font-size: 8px;
+  }
+}

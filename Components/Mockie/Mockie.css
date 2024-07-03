@@ -1,0 +1,119 @@
+.mokie-bg {
+  border-radius: 20px;
+  background: rgba(65, 69, 72, 0.1);
+  max-width: 100%;
+  min-height: 473px;
+}
+
+.mokie-gradient {
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mocki-button {
+  width: 190px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #bcbcbc;
+
+  color: #bcbcbc;
+  text-align: center;
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+
+.mokie-gradient-rounded-left {
+  width: 443px;
+  height: 200px;
+  flex-shrink: 0;
+  filter: blur(305px);
+  position: absolute;
+  z-index: 1;
+
+  background: linear-gradient(
+    91deg,
+    #ffd770,
+    #ff70ace5,
+    #eb70ff99,
+    #9e70ff4d,
+    #70b7ffaa
+  );
+}
+.mokie-gradient-rounded-right {
+  width: 443px;
+  height: 200px;
+  flex-shrink: 0;
+  filter: blur(305px);
+  position: absolute;
+  z-index: 1;
+  background: rgba(240, 98, 50, 0.3);
+}
+
+/* audio wave */
+.audio-container {
+  /* border-radius: 16px;
+  background: #212121;
+  box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.12); */
+  border-radius: 10px;
+  background: linear-gradient(
+    91deg,
+    #ffd770 -7.34%,
+    #ff70ac 29.48%,
+    #9e70ff 69.49%,
+    #70b8ff 103.64%
+  );
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+    0px -3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+    0px 2px 18px 0px rgba(255, 255, 255, 0.12) inset,
+    0px -2px 18px 0px rgba(255, 255, 255, 0.12) inset;
+}
+
+.fade-animation {
+  transition: all 3s ease-in-out;
+}
+
+/* #waveform > div:first-child {
+  display: none !important;
+} */
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .mocki-button {
+    width: 30%;
+    height: 70px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 539px) {
+  .scroll {
+    height: 30px !important;
+  }
+}
+@media (min-width: 370px) and (max-width: 539px) {
+  .mocki-button {
+    width: 160px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 369px) {
+  .mocki-button {
+    width: 100px;
+    height: 32px;
+    font-size: 11px;
+  }
+}

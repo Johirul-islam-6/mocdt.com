@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+.font-roboto {
+  font-family: "inter", sans-serif;
+}
+
+.nav_menu_bg {
+  background: linear-gradient(90deg, #1e151d 9.84%, #121212 96.96%);
+}
+
+.start-project-btn {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+    0px -3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+    0px 2px 18px 0px rgba(255, 255, 255, 0.12) inset,
+    0px -2px 18px 0px rgba(255, 255, 255, 0.12) inset;
+}
+
+@media (min-width: 725px) {
+  .stroke,
+  .stroke:after,
+  .stroke:before {
+    transition: all 0.5s;
+  }
+
+  .stroke {
+    position: relative;
+  }
+  .stroke:after {
+    position: absolute;
+    top: 36px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: white;
+    height: 1px;
+  }
+  .stroke:hover:after {
+    width: 100%;
+  }
+
+  #active-nav {
+    position: relative;
+  }
+
+  #active-nav:after {
+    background-color: rgb(240, 237, 237);
+    position: absolute;
+    top: 36px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    content: ".";
+    color: transparent;
+    background: white;
+    height: 1px;
+  }
+}
+
+#active-nav {
+  color: rgb(240, 237, 237);
+}
+
+.navbar {
+  /* blur bg */
+  /* background: #e9e8e3; */
+  /* background: rgba(224, 223, 219, 0.5); */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-border {
+  /* border-radius: 9999px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: #1C1C1C; */
+}
+
+.logo-bg {
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #1c1c1c;
+}
+
+/* .gradient_button{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 300px;
+  background: linear-gradient(
+    90deg,
+    #ffd770 -7.34%,
+    #ff70ac 29.48%,
+    #9e70ff 69.49%,
+    #70b8ff 103.64%
+  );
+} */
+
+.navbar > ul > li > ul li a:hover {
+  padding-left: 25px;
+  background-color: #f3f2ee;
+}
+
+.navbar > ul > li.dropdown > a {
+  position: relative;
+  padding-right: 15px;
+}
+.navbar > ul > li.dropdown > a::after {
+  content: "";
+  display: table;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: url(/app/assets/Vector.png), no-repeat, center;
+  width: 9px;
+  height: 6px;
+}
+
+@media (max-width: 725px) {
+  /* .nav-border{
+    border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: #1C1C1C;
+  } */
+  .navbar {
+    /* blur bg */
+    /* background: #e9e8e3; */
+    background: #0a0a0a;
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+  }
+}
+
+.gradient_button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #0a0a0a;
+  border-radius: 300px;
+  width: 135px;
+  height: 40px;
+  padding: 16px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 14px;
+  letter-spacing: 0.14px;
+  z-index: 10;
+
+  background-blend-mode: overlay, normal;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(0px);
+}
+
+.gradient_button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0;
+  border-radius: 300px;
+  padding: 1.5px;
+
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.ant-menu {
+  background: transparent !important;
+  color: white !important;
+  font-family: "Outfit", sans-serif !important;
+  font-size: 16px !important;
+}
+.ant-menu-submenu-title {
+  color: white !important;
+  padding-left: 10px !important;
+  font-family: "Outfit", sans-serif !important;
+}
+
+.ant-menu-item {
+  padding-left: 10px !important;
+  height: 35px !important;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+  background-color: transparent !important;
+}

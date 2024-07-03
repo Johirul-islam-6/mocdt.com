@@ -1,0 +1,199 @@
+.career-title-bg {
+  background: linear-gradient(90deg, #bababa 0%, #fafafa 53.13%, #bababa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero {
+  width: 100% !important;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+/* -------------- row 1 ,row -3 seciont design css ----------------- */
+
+.learn_more_button {
+  flex-shrink: 0;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 12.368px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.124px;
+
+  z-index: 10;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.learn_more_button:hover {
+  background: rgba(65, 69, 72, 0.1);
+}
+
+.learn_more_button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 7px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.ceo-readmore-button {
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 16.93px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.169px;
+  /* ---- important--- */
+  z-index: 10;
+  box-shadow: 0px 5.07895px 10.15789px 0px rgba(0, 0, 0, 0.2) inset,
+    0px -5.07895px 10.15789px 0px rgba(0, 0, 0, 0.2) inset,
+    0px 3.38596px 30.47368px 0px rgba(255, 255, 255, 0.12) inset,
+    0px -3.38596px 30.47368px 0px rgba(255, 255, 255, 0.12) inset;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.ceo-readmore-button:hover {
+  background: rgba(65, 69, 72, 0.1);
+}
+
+.ceo-readmore-button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 10px;
+  padding: 2px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.cover-button-text {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.18px;
+
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 960px) {
+  .ceo-container {
+    flex-direction: column-reverse !important;
+  }
+  /* ---- row-1 row-2 contain---- */
+  .row-container-1 {
+    display: block !important;
+  }
+  .learn_more_button-container {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .button-center {
+    display: flex !important;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .border-gradient-button {
+    margin-left: 0px !important;
+  }
+  .image-conterner {
+    width: 100% !important;
+    justify-content: center;
+    padding: 5% 15%;
+  }
+  .ceo {
+    display: flex;
+  }
+  .text-containre {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+  .paragraph_title_48 {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .learn_more_button,
+  .ceo-readmore-button {
+    width: 140px;
+    height: 45px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 539px) {
+  .learn_more_button,
+  .ceo-readmore-button {
+    width: 135px;
+    height: 40px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 369px) {
+  .learn_more_button,
+  .ceo-readmore-button {
+    width: 110px;
+    height: 35px;
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,297 @@
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #1f2937;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #b3b1b1;
+  /* border-radius: 10% !important; */
+}
+
+/* -------------- Policy banner start ------------- */
+
+.policy-banner {
+  height: auto;
+  fill: linear-gradient(
+    94deg,
+    rgba(255, 215, 112, 0.06) 10.1%,
+    rgba(255, 112, 172, 0.06) 31.35%,
+    rgba(235, 112, 255, 0.06) 52.59%,
+    rgba(158, 112, 255, 0.06) 69.43%,
+    rgba(112, 184, 255, 0.06) 87.07%
+  );
+
+  background: linear-gradient(
+    94deg,
+    rgba(255, 215, 112, 0.06) 10.1%,
+    rgba(255, 112, 172, 0.06) 31.35%,
+    rgba(235, 112, 255, 0.06) 52.59%,
+    rgba(158, 112, 255, 0.06) 69.43%,
+    rgba(112, 184, 255, 0.06) 87.07%
+  );
+
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.policy-banner::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.button-border {
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.button-border::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.policy-box {
+  padding: 110px 10px !important;
+
+  background: linear-gradient(
+    94deg,
+    rgba(255, 215, 112, 0.06) 10.1%,
+    rgba(255, 112, 172, 0.06) 31.35%,
+    rgba(235, 112, 255, 0.06) 52.59%,
+    rgba(158, 112, 255, 0.06) 69.43%,
+    rgba(112, 184, 255, 0.06) 87.07%
+  );
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.policy-box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.mocdt-box-title-32 {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  background: var(
+    --safe-ui,
+    linear-gradient(
+      135deg,
+      #a5ffc7 2.03%,
+      #9dffcd 25.89%,
+      #d9ffe4 49.94%,
+      #8ddaf1 92.57%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mocdt-box-paragrap-24 {
+  color: #fafafa;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+/* --------- policy title box ------ */
+
+.policy-title-box {
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #000;
+  color: #fff;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+.policy-title-box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 5px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.policy-paragrap-24 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  line-height: 40px;
+}
+
+.policy-title-40 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(
+    97deg,
+    #92feb9 27.08%,
+    #65dae0 39.01%,
+    #f7c8ff 50.95%,
+    #ebe1ff 60.4%,
+    #70b8ff 70.31%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.policy-paragrap-20 {
+  color: #d2d2d2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.3px;
+}
+
+/* -------------- Policy banner end ------------- */
+
+/* ----------------extra -------- */
+.policy-titele-60 {
+  font-size: 60px;
+  font-family: 600;
+  line-height: 80px;
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page_title_story {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p_title {
+  color: #fff;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 36px */
+}
+.bg-icon {
+  color: #454545;
+  width: 40px;
+  height: 40px;
+}

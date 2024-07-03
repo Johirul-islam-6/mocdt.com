@@ -1,0 +1,45 @@
+.custom-accordion button {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #a15877;
+  background: rgba(29, 34, 38, 0.3);
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.custom-accordion button:focus {
+  background: #151b20;
+  outline: none;
+}
+.custom-accordion button:hover {
+  color: #ffffffa0;
+}
+
+.custom-accordion .block.relative.w-full {
+  margin-bottom: 15px;
+}
+
+.custom-accordion .overflow-hidden > .block {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #3d5467;
+  background: rgba(29, 34, 38, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media (max-width: 720px) {
+  .custom-accordion button {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .custom-accordion .overflow-hidden > .block {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+}

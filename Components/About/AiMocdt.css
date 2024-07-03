@@ -1,0 +1,299 @@
+.Ai-mocdt-title-40 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 56px */
+  background: linear-gradient(
+    90deg,
+    #ffd770 8.25%,
+    #ff70ac 31.7%,
+    #eb70ff 55.15%,
+    #9e70ff 73.73%,
+    #70b8ff 93.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Ai-mocdt-title-32 {
+  color: #fff8f8;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 44.8px */
+}
+
+/* ----- Ai box container ---- */
+.ai-insite-box {
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+  background: #1c1b1b;
+
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+.ai-insite-box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1.5px;
+
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+
+.ai-box-title-22 {
+  color: #fff6f6;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 104.545% */
+  letter-spacing: 0.5px;
+}
+.ai-box-paragrap-16 {
+  color: #fff6f6;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 143.75% */
+  letter-spacing: 0.5px;
+}
+
+.ai-box-button {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 4px;
+  border: 0px solid #fff6f6;
+  background: #222;
+}
+.ai-box-button-text {
+  color: #fff6f6;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1550px) {
+  .ai-insite-box {
+    width: 440px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+}
+@media (min-width: 1371px) and (max-width: 1550px) {
+  .ai-insite-box {
+    width: 330px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1370px) {
+  .ai-insite-box {
+    width: 300px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+}
+@media (min-width: 1251px) and (max-width: 1279px) {
+  .ai-insite-box {
+    width: 290px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+}
+@media (min-width: 1161px) and (max-width: 1250px) {
+  .ai-insite-box {
+    width: 260px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+}
+@media (min-width: 950px) and (max-width: 1160px) {
+  .ai-insite-box {
+    width: 350px !important;
+    height: 260px;
+    border-radius: 20px;
+    background: #1c1b1b;
+  }
+  .Ai-mocdt-title-40 {
+    text-align: center !important;
+  }
+  .Ai-mocdt-title-32 {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 950px) {
+  .Ai-mocdt-title-40 {
+    text-align: center !important;
+  }
+  .Ai-mocdt-title-32 {
+    text-align: center !important;
+  }
+}
+/* ----------- Mocdt Action -------- */
+.mocdt-action-title-51 {
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67px; /* 131.373% */
+  letter-spacing: 0.5px;
+  background: linear-gradient(
+    90deg,
+    #ffd770 14.71%,
+    #ff70ac 31.99%,
+    #eb70ff 49.26%,
+    #9e70ff 62.95%,
+    #70b8ff 77.29%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mocdt-action-paragrap-24 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.gradient-color-01 {
+  background: linear-gradient(
+    180deg,
+    #ffd770 100%,
+    #ff70ac 27.6%,
+    #eb70ff 55.21%,
+    #9e70ff 77.08%,
+    #70b8ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+}
+
+.gradient-color-02 {
+  background: linear-gradient(
+    180deg,
+    #ff70ac 100%,
+    #eb70ff 27.6%,
+    #ffd770 55.21%,
+    #eb70ff 55.21%,
+    #9e70ff 77.08%,
+    #70b8ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+}
+.gradient-color-03 {
+  background: linear-gradient(
+    180deg,
+    #eb70ff 100%,
+    #ffd770 55.21%,
+    #ff70ac 27.6%,
+    #eb70ff 55.21%,
+    #9e70ff 77.08%,
+    #70b8ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+}
+.gradient-color-04 {
+  background: linear-gradient(180deg, #9e70ff 77.08%, #70b8ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 950px) {
+  .drives {
+    display: none !important;
+  }
+  .mocdt-action-container {
+    width: 100% !important;
+  }
+  .mocdt-action-title-51 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .mocdt-action-paragrap-24 {
+    text-align: start !important;
+  }
+  .Ai-mocdt-title-40 {
+    font-size: 50px !important;
+  }
+  .Ai-mocdt-title-32 {
+    font-size: 26px !important;
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 500px) {
+  .mocdt-action-title-51 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .Ai-mocdt-title-40 {
+    font-size: 35px !important;
+  }
+  .Ai-mocdt-title-32 {
+    font-size: 20px !important;
+    padding-top: 20px !important;
+  }
+}
+@media (max-width: 350px) {
+  .ai-insite-box {
+    width: 100% !important;
+  }
+}

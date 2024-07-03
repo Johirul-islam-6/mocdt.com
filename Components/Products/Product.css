@@ -1,0 +1,108 @@
+.products_bg {
+  border-radius: 8.523px 8.523px 0px 0px;
+  background: linear-gradient(90deg, #1e151d 9.84%, #121212 96.96%);
+}
+
+.product-heading-gradient {
+  background: linear-gradient(
+    191deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mocdt-file-box_container_border_gradient {
+  display: inline-flex;
+  padding: 2px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 45px;
+
+  position: relative;
+  z-index: 1;
+}
+.border-gradient {
+  background: linear-gradient(
+    60deg,
+    #ffd770 -10.86%,
+    #ff70ac 69.33%,
+    #eb70ff 77.81%,
+    #9e70ff 86.28%,
+    #70b8ff 94.76%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mocdt-file-box-container {
+  display: inline-flex;
+  padding: 8px 22px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 45px;
+  background: #101112;
+}
+
+/* -------- mocdt file containre css------- */
+
+.file-container {
+  /* display: flex;
+  padding-bottom: 0px;
+  align-items: center; */
+  /* gap: 39px; */
+  background: #000;
+  max-width: 100% !important;
+}
+
+.file-button {
+  display: flex;
+  padding: 10.105px 17.684px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.105px;
+  border-radius: 10.105px;
+  background: #202227;
+}
+.file-button-text {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30.316px;
+  /* 150% */
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* -------------- responsive ------------- */
+@media screen and (max-width: 650px) {
+  .all-File {
+    display: block !important;
+  }
+  .file-box-mt-5 {
+    margin-top: 15px !important;
+  }
+
+  /* .section_title_46{
+        font-size: 36px !important;
+    }
+    .gr-section_title_46{
+        font-size: 36px !important;
+    } */
+}

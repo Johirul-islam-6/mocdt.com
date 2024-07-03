@@ -1,0 +1,115 @@
+.Life-Mocdt {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(68, 73, 77, 0.1) 5.45%,
+    rgba(68, 73, 77, 0) 109.52%
+  );
+}
+.life-heading {
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 47.6px */
+}
+.bg-gradient {
+  background: linear-gradient(
+    91deg,
+    #ffd770 8.81%,
+    #ff70ac 29.16%,
+    #eb70ff 49.51%,
+    #9e70ff 69.86%,
+    #70b8ff 90.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.life-text {
+  color: #fff;
+  text-align: justify;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 39.6px */
+}
+
+.border-gradient-button {
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+position: relative;
+  font-size: 16.93px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.169px;
+  /* ---- important--- */
+  z-index: 10;
+  box-shadow: 0px 5.07895px 10.15789px 0px rgba(0, 0, 0, 0.2) inset,
+    0px -5.07895px 10.15789px 0px rgba(0, 0, 0, 0.2) inset,
+    0px 3.38596px 30.47368px 0px rgba(255, 255, 255, 0.12) inset,
+    0px -3.38596px 30.47368px 0px rgba(255, 255, 255, 0.12) inset;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.border-gradient-button:hover {
+  background: rgba(65, 69, 72, 0.1);
+}
+
+.border-gradient-button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 8px;
+  padding: 2px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out;
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .border-gradient-button {
+    width: 210px;
+    height: 65px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 539px) {
+  .border-gradient-button {
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 369px) {
+  .border-gradient-button {
+    width: 190px;
+    height: 45px;
+    font-size: 11px;
+  }
+}

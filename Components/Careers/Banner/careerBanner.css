@@ -1,0 +1,46 @@
+
+
+.Career-heading-64{
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 76.8px */
+
+    background: linear-gradient(91deg, #FFD770 8.81%, #FF70AC 29.16%, #EB70FF 49.51%, #9E70FF 69.86%, #70B8FF 90.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------------ responsive -------- */
+@media (min-width: 961px) and (max-width:1200px) {
+    .Career-heading-64{
+        font-size: 55px;
+    }
+}
+@media (min-width: 701px) and (max-width:960px) {
+    .Career-heading-64{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+
+    .Career-heading-64 {
+            font-size: 45px !important;
+        }
+
+}
+
+@media (min-width: 250px) and (max-width: 399px) {
+    .Career-heading-64 {
+            font-size: 36px !important;
+        }
+}
+@media (min-width: 100px) and (max-width: 250px) {
+    .Career-heading-64 {
+            font-size: 25px !important;
+        }
+}

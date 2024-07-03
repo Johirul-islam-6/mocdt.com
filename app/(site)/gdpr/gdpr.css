@@ -1,0 +1,105 @@
+.policy-titele-60 {
+    font-size: 60px;
+    font-family: 600;
+    line-height: 80px;
+    background: linear-gradient(
+      91deg,
+      #ffd770 8.81%,
+      #ff70ac 29.16%,
+      #eb70ff 49.51%,
+      #9e70ff 69.86%,
+      #70b8ff 90.2%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .page_title_story {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+  
+    background: linear-gradient(
+      91deg,
+      #ffd770 8.81%,
+      #ff70ac 29.16%,
+      #eb70ff 49.51%,
+      #9e70ff 69.86%,
+      #70b8ff 90.2%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .p_title {
+    color: #fff;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 36px */
+  }
+  
+  .subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111213;
+    border-radius: 10px;
+    /* width: 200px;
+        height: 64px; */
+    /* padding: 24px 48px; */
+    color: #fff;
+    text-align: center;
+    /* font-size: 16px;
+        font-style: normal;
+        font-weight: 700px;
+        line-height: 14px;
+        letter-spacing: 0.14px; */
+    z-index: 10;
+  
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+      0px -3px 6px 0px rgba(0, 0, 0, 0.2) inset,
+      0px 2px 18px 0px rgba(255, 255, 255, 0.12) inset,
+      0px -2px 18px 0px rgba(255, 255, 255, 0.12) inset;
+  
+    /* backdrop-filter: blur(0px); */
+  }
+  
+  .subscribe-button::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px;
+  
+    background: linear-gradient(
+      91deg,
+      #ffd6708e 8.81%,
+      #ff70ac8f 29.16%,
+      #ec70ffab 49.51%,
+      #9d70ffb6 69.86%,
+      #70b7ffb3 90.2%
+    );
+    /* -webkit-mask: linear-gradient(black 0 0) content-box,
+      linear-gradient(black 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    transition: 2s ease-in-out; */
+  } 
+
+  .circal{
+
+        list-style-type: circle; 
+      
+    
+  }
+  

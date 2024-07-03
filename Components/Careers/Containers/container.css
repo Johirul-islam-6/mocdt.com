@@ -1,0 +1,77 @@
+
+
+.container-title-28{
+
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        background: linear-gradient(91deg, #FFD770 3.71%, #FF70AC 18%, #EB70FF 32.3%, #9E70FF 46.6%, #70B8FF 60.89%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        /* 39.2px */
+}
+
+.container-paragrap-16{
+    color: #9B9B9B;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        /* 28.8px */
+}
+
+
+/* ----------------- find place section ---------- */
+
+.find-heading-40{
+    text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 60px */
+
+        background:  linear-gradient(91deg, #FFD770 8.81%, #FF70AC 29.16%, #EB70FF 49.51%, #9E70FF 69.86%, #70B8FF 90.2%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.place-paragrap-20{
+    color: #FAFAFA;
+    text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        /* line-height: 0px; */
+        /* 0% */
+}
+
+
+
+/* ------------ responsive -------- */
+
+@media (min-width: 100px) and (max-width: 950px) {
+   
+.container-title-28{
+    text-align: center !important;
+}
+.container-paragrap-16{
+    text-align: center !important;
+}
+
+
+
+}
+@media (min-width: 100px) and (max-width: 500px) {
+   
+.find-heading-40{
+    font-size: 32px !important;
+}
+
+
+
+}
