@@ -1,9 +1,8 @@
-
 import "./globals.css";
 import { Inter } from "next/font/google";
 import dynamic from "next/dynamic";
-const Navbar = dynamic(() => import('@/Components/Navbar/Navbar'))
-const Footer = dynamic(() => import('@/Components/Footer/Footer'))
+const Navbar = dynamic(() => import("@/Components/Navbar/Navbar"));
+const Footer = dynamic(() => import("@/Components/Footer/Footer"));
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}> 
-        
+      <body className={inter.className}>
         <Navbar />
         <div>{children}</div>
         <Footer />
